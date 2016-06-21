@@ -4,14 +4,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Acrostia</title>
-    <link href='http://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
-	 <link rel="stylesheet" href="css/font-awesome.min.css">
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Hastech</title>
 
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+ 
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,410 +25,1209 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body id="page-top" class="index">
-    <div class="navbar navbar-default navbar-fixed-top sticky-navigation">
-    	<div class="container">
-    		<div class="navbar-header page-scroll">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand page-scroll" href="#page-top">Acrostia</a>
-			</div>
-    	
-    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	    		<ul class="nav navbar-nav navbar-right">
-	    			<li class="hidden"><a href="#page-top"></a></li>
-	    			<li> <a href="#services" class="page-scroll">Services</a></li>
-	    			<li><a href="#about" class="page-scroll">About</a></li>
-	    			<li><a href="#work" class="page-scroll">Work</a></li>
-	    			<li><a href="#contact" class="page-scroll">Contact</a></li>
-	    		</ul>
-    		</div>
-    	</div>
-    </div>
-    <section class="slider-area">
-    	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-    		<ol class="carousel-indicators">
-			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-			</ol>
-			<div class="carousel-inner" role="listbox">
-				<div class="item active">
-				    <img src="img/slider1.jpg" alt="...">
-				    <div class="slider_caption">
-				    	<div class="slid-content">
-					    	<h3 class="content-first">Good ideas <span>comes</span></h3>
-					    	<h1 class="last">First!</h1>
-				    	</div>
-				    </div>
-				</div>
-				<div class="item">
-				      <img src="http://dummyimage.com/1600x1000/4b6282/fff.jpg" alt="...">
-				</div>
-				<div class="item">
-					<img src="http://dummyimage.com/1600x1000/4b6282/00404d.jpg" alt="">
-				</div>
-			</div>
-			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-			    <span class="sr-only">Previous</span>
-			</a>
-			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-			    <span class="sr-only">Next</span>
-			</a>
-    	</div>
+  <body data-spy="scroll" data-target=".navbar" data-offset="80">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><p>HASTECH</p></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#blog">blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#"><i class="fa fa-search"></i></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <header class="intro">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <div class="intro-text">
+                <h2><span class="text-white">Need To Grow</span></h2>
+                <h1><strong><span class="text-white">Your Business</span></strong></h1>
+                <h3>WE DESIGN AND DEVELOP YOUR DREAM</h3>
+                <a class="btn btn-theme btn-sm btn-min-block" href="#">GET STARTED NOW</a>
+                </div>
+            </div>
+            <div class="col-md-2">
+              <div class="social-btn">
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="feature-area" id="features">
+      <div class="container">
+        <div class="row">
+          <div class="main-header">
+            <h1>AWESOME FEATURES</h1>
+            <span class="bottom-line"></span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com</p>
+          </div>
+        </div>
+        <div class="row timeline-container">
+          <ul class="timeline">
+            <li><div class="timeline-circle"></div></li>
+            <li>
+              <div class="timeline-badge"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">CREATIVE IDEAS</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn.</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">AWESOME WEB DESIGN</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-badge"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">PROFESSIONAL DESIGN</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn.</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">PERFECT WEB DEVELOPENT</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-badge"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">RETINA DISPLAY</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn.</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">RESPONSIVE DESIGN</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-badge"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">PIXEL PERFECT DESIGN</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn.</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">CLEAN CODE</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn.</p>
+                </div>
+              </div>
+            </li>
+            <li><div class="timeline-circle-end"></div></li>
+          </ul>
+        </div>
+      </div>
     </section>
-	<section id="services" class="services-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="center-heading">
-						<h2>OUR SERVICES</h2>
-						<h4> Cras commodo mattis justo nec lobortis. Nam ut tellus lobortis, ullamcorper massa sit amet</h4>
-						<p>Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="service-box">
-						<div class="services-box-icon">
-							<i class="fa fa-lightbulb-o"></i>
-						</div>
-						<div class="service-box-info">
-							<h4>Researching</h4>
-							<p>Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="service-box">
-						<div class="services-box-icon">
-							<i class="fa fa-magic"></i>
-						</div>
-						<div class="service-box-info">
-							<h4>DESIGN</h4>
-							<p>Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="service-box">
-						<div class="services-box-icon">
-							<i class="fa fa-cogs"></i>
-						</div>
-						<div class="service-box-info">
-							<h4>Development</h4>
-							<p>Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="service-box">
-						<div class="services-box-icon">
-							<i class="fa fa-rocket"></i>
-						</div>
-						<div class="service-box-info">
-							<h4>launch</h4>
-							<p>Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section id="about" class="about-team-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="center-heading">
-						<h2>Who we are 	&amp; what we do</h2>
-						<p>Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis.</p>
-						<div class="tool-tip">
-							<h3>meet the team</h3>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row about-content-area">
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="about-content-box">
-						<div class="about-img">
-							<img src="img/person.jpg"  class="img-responsive img-circle" alt="">
-						</div>
-						<div class="about-info">
-							<h3 class="name">Anton Petrov</h3>
-							<p class="description">General manager</p>
-						</div>
-						<div class="about-media">
-							<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-							<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="google"><i class="fa fa-google-plus"></i></a>
-							<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="about-content-box">
-						<div class="about-img">
-							<img src="img/person.jpg"  class="img-responsive img-circle" alt="">
-						</div>
-						<div class="about-info">
-							<h3 class="name">Kirl DONCHEV</h3>
-							<p class="description">Design Master</p>
-						</div>
-						<div class="about-media">
-							<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-							<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="google"><i class="fa fa-google-plus"></i></a>
-							<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="about-content-box">
-						<div class="about-img">
-							<img src="img/person.jpg"  class="img-responsive img-circle" alt="">
-						</div>
-						<div class="about-info">
-							<h3 class="name">Ilian Bonev</h3>
-							<p class="description">Developer Ninja</p>
-						</div>
-						<div class="about-media">
-							<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-							<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="google"><i class="fa fa-google-plus"></i></a>
-							<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="about-content-box">
-						<div class="about-img">
-							<img src="img/person.jpg"  class="img-responsive img-circle" alt="">
-						</div>
-						<div class="about-info">
-							<h3 class="name">Doni Stamov</h3>	
-							<p class="description">SEO guru</p>
-						</div>
-						<div class="about-media">
-							<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-							<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="google"><i class="fa fa-google-plus"></i></a>
-							<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section id="work" class="portfolio-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="center-heading">
-						<h2>our work</h2>
-						<p>Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis.</p>
-						<span class="bottom-line"></span>
-					</div>
+    <section class="template-area">
+      <div class="overlay-templt"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1 class="text-white">HASTECH IS A CREATIVE TEMPLATE </h1>
+            <img src="img/about-img.jpg" alt="about img">
+            <p class="template-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <a href="" class="buy-btn">BUY NOW</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-area" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main-header">
+              <h1>ABOUT HASTECH</h1>
+              <span class="bottom-line"></span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com</p>
+            </div>
+          </div>
+        </div>
+        <div class="row about-container">
+          <div class="col-md-4 col-sm-6 col-xs-6">
+            <div class="about-content-wrap">
+              <div class="img-wrap">
+                <img src="img/about-img.jpg" alt="about img">
+                <div class="img-overlay">
+                  <a href="" class="expand"><i class="fa fa-plus"></i></a>
+                </div>
+              </div>
+              <h4 class="about-title text-green">OUR MISSIONS</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+            </div>
+          </div>
+           <div class="col-md-4 col-sm-6 col-xs-6">
+            <div class="about-content-wrap">
+              <div class="img-wrap">
+                <img src="img/about-img2.jpg" alt="about img">
+                <div class="img-overlay">
+                  <a href="" class="expand"><i class="fa fa-plus"></i></a>
+                </div>
+              </div>
+              <h4 class="about-title text-green">OUR VALUES</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+            </div> 
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-6">
+            <div class="about-content-wrap">
+              <div class="img-wrap">
+                <img src="img/about-img3.jpg" alt="about img">
+                <div class="img-overlay">
+                  <a href="" class="expand"><i class="fa fa-plus"></i></a>
+                </div>
+              </div>
+              <h4 class="about-title text-green">OUR SOLUTIONS</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row choose-container">
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="choose-content">
+              <h4 class="text-green">WHY COOSE US</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna iqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. adipiscing elit,</p>  
+              <ul>
+                <li>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna iqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. adipiscing elit, </p>
+                </li>
+                <li>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna iqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. adipiscing elit, </p>
+                </li>
+                <li>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna iqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. adipiscing elit, </p>
+                </li>
+              </ul>  
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="choose-img">
+              <img src="img/portfolio-5.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="service-area" id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main-header">
+              <h1>OUR SERVICES</h1>
+              <span class="bottom-line"></span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com</p>
+            </div>
+          </div>
+        </div>
+        <div class="row service-container">
+          <div class="col-md-4 col-sm-4">
+            <div class="media">
+               <div class="media-left">
+                 <div class="service-icon">
+                  <a href="" class="media-object"><i class="fa fa-object-group"></i></a>
+                 </div>
+               </div>
+               <div class="media-body">
+                 <h4 class="media-heading text-green">GRAPHIC DESIGN</h4>
+                 <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do eiusmod mpor incididunt ut labore et dolore.</p>
+               </div>
+             </div>
+            </div>
+           <div class="col-md-4 col-sm-4">
+             <div class="media">
+               <div class="media-left">
+                 <div class="service-icon">
+                   <a href="" class="media-object"><i class="fa fa-desktop"></i></a>
+                 </div>
+               </div>
+               <div class="media-body">
+                 <h4 class="media-heading text-green">UX DESIGN</h4>
+                 <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do eiusmod mpor incididunt ut labore et dolore.</p>
+               </div>
+             </div>
+           </div>
+           <div class="col-md-4 col-sm-4">
+             <div class="media">
+               <div class="media-left">
+                 <div class="service-icon">
+                   <a href="" class="media-object"><i class="fa fa-building"></i></a>
+                 </div>
+               </div>
+               <div class="media-body">
+                 <h4 class="media-heading text-green">UI DESIGN</h4>
+                 <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do eiusmod mpor incididunt ut labore et dolore.</p>
+               </div>
+             </div>
+           </div>
+           <div class="col-md-4 col-sm-4">
+             <div class="media">
+               <div class="media-left">
+                 <div class="service-icon">
+                    <a href="" class="media-object"><i class="fa fa-tasks"></i></a>
+                  </div> 
+               </div>
+               <div class="media-body">
+                 <h4 class="media-heading text-green">PRINT DESIGN</h4>
+                 <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do eiusmod mpor incididunt ut labore et dolore.</p>
+               </div>
+             </div>
+           </div>
+           <div class="col-md-4 col-sm-4">
+             <div class="media">
+               <div class="media-left">
+                 <div class="service-icon">
+                   <a href="" class="media-object"><i class="fa fa-magic"></i></a>
+                 </div>
+               </div>
+               <div class="media-body">
+                 <h4 class="media-heading text-green">BRANDING DESIGN</h4>
+                 <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do eiusmod mpor incididunt ut labore et dolore.</p>
+               </div>
+             </div>
+           </div>
+           <div class="col-md-4 col-sm-4">
+             <div class="media">
+               <div class="media-left">
+                 <div class="service-icon">
+                   <a href="" class="media-object"><i class="fa fa-file-video-o"></i></a>
+                 </div>
+               </div>
+               <div class="media-body">
+                 <h4 class="media-heading text-green">ANIMATION</h4>
+                 <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do eiusmod mpor incididunt ut labore et dolore.</p>
+               </div>
+             </div>
+           </div>
+           <div class="col-md-4 col-sm-4">
+             <div class="media">
+               <div class="media-left">
+                 <div class="service-icon">
+                   <a href="" class="media-object"><i class="fa fa-rocket"></i></a>
+                 </div>
+               </div>
+               <div class="media-body">
+                 <h4 class="media-heading text-green">APP DESIGN</h4>
+                 <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do eiusmod mpor incididunt ut labore et dolore.</p>
+               </div>
+             </div>
+           </div>
+           <div class="col-md-4 col-sm-4">
+             <div class="media">
+               <div class="media-left">
+                 <div class="service-icon">
+                   <a href="" class="media-object"><i class="fa fa-file-text-o"></i></a>
+                 </div>
+               </div>
+               <div class="media-body">
+                 <h4 class="media-heading text-green">PSD TO HTML</h4>
+                 <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do eiusmod mpor incididunt ut labore et dolore.</p>
+               </div>
+             </div>
+           </div>
+           <div class="col-md-4 col-sm-4">
+             <div class="media">
+               <div class="media-left">
+                 <div class="service-icon">
+                   <a href="" class="media-object"><i class="fa fa-wordpress"></i></a>
+                 </div>
+               </div>
+               <div class="media-body">
+                 <h4 class="media-heading text-green">WORDPRESS DEVELOPMENT</h4>
+                 <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do eiusmod mpor incididunt ut labore et dolore.</p>
+               </div>
+             </div>
+           </div>
+           <div class="col-md-4 col-sm-4">
+             <div class="media">
+               <div class="media-left">
+                 <div class="service-icon">
+                   <a href="" class="media-object"><i class="fa fa-joomla"></i></a>
+                 </div>
+               </div>
+               <div class="media-body">
+                 <h4 class="media-heading text-green">JOOMLA</h4>
+                 <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do eiusmod mpor incididunt ut labore et dolore.</p>
+               </div>
+             </div>
+           </div>
+           <div class="col-md-4 col-sm-4">
+             <div class="media">
+               <div class="media-left">
+                 <div class="service-icon">
+                   <a href="" class="media-object"><i class="fa fa-pencil-square-o"></i></a>
+                 </div>
+               </div>
+               <div class="media-body">
+                 <h4 class="media-heading text-green">PHP DEVELOPEMENT</h4>
+                 <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do eiusmod mpor incididunt ut labore et dolore.</p>
+               </div>
+             </div>
+           </div>
+           <div class="col-md-4 col-sm-4">
+             <div class="media">
+               <div class="media-left">
+                 <div class="service-icon">
+                   <a href="" class="media-object"><i class="fa fa-shopping-cart"></i></a>
+                 </div>
+               </div>
+               <div class="media-body">
+                 <h4 class="media-heading text-green">e-COMMERCE</h4>
+                 <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do eiusmod mpor incididunt ut labore et dolore.</p>
+               </div>
+             </div>
+           </div>         
+        </div>
+      </div>
+    </section>
+    <section class="portfolio-area" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main-header">
+              <h1>PORTFOLIO</h1>
+              <span class="bottom-line"></span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com</p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-10 col-md-offset-2">
+            <ul class="list-inline portfolio-list">
+              <li class="filter" data-filter="all">All</li>
+              <li class="filter" data-filter=".brangind">BRANGIND</li>
+              <li class="filter" data-filter=".graphic-design">GRAPHIC DESIGN</li>
+              <li class="filter" data-filter=".print-design">PRINT DESIGN</li>
+              <li class="filter" data-filter=".app-design">APP DESIGN</li>
+              <li class="filter" data-filter=".animation">ANIMATION</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row portfolio-list">
+          <div class="mix brangind col-md-4 col-sm-6 col-xs-12" data-my-order="1">
+            <div class="single-portfolio">
+              <img src="img/portfolio-1.jpg" alt="portfolio sample" class="img-responsive">
+              <div class="img-blur-effect">
+                  <div class="overlay-effect"></div>
+                </div>
+            </div>
+          </div>
+          <div class="mix graphic-design col-md-4 col-sm-6 col-xs-12" data-my-order="1">
+            <div class="single-portfolio">
+              <img src="img/portfolio-2.jpg" alt="portfolio sample" class="img-responsive">
+              <div class="img-blur-effect">
+                  <div class="overlay-effect"></div>
+                </div>
+            </div>
+          </div>
+          <div class="mix graphic-design col-md-4 col-sm-6 col-xs-12" data-my-order="1">
+            <div class="single-portfolio">
+              <img src="img/portfolio-3.jpg" alt="portfolio sample" class="img-responsive">
+              <div class="img-blur-effect">
+                  <div class="overlay-effect"></div>
+                </div>
+            </div>
+          </div>
 
-				</div>
-			</div>
-			<div class="row project_area">
-				<div class="col-md-12">
-					<div class="project_filter">
-						<div class="project-menu-all">
-							<h3> Portfolio</h3>
-							<ul class="project_menu pull-right" >
-								<li class="filter" data-filter="all">All</li>
-								<li class="filter" data-filter=".category-2">Photography</li>
-								<li class="filter" data-filter=".category-3">Logo Design</li>
-								<li class="filter" data-filter=".category-4">Web design</li>
-							</ul>
-							<span class="bottom-line"></span>
-						</div>
-					</div>
-					<div class="project-list">
-						<div class="mix category-1 col-md-3 col-sm-6 col-xs-12" data-myorder="1">
-							<div class="single-project">
-								<img src="http://dummyimage.com/600X400/000/fff&text=+" alt="" class="img-responsive">
-								<div class="item-img-wrap">
-								<div class="img-overlay"></div>
-									<a href="#"></a>
-								</div>
-								<div class="project-desc"><p>Aenean a elit</p></div>
-							</div>
-						</div>
-						<div class="mix category-2 col-md-3 col-sm-6 col-xs-12" data-myorder="1">
-							<div class="single-project">
-								<img src="http://dummyimage.com/600X400/000/fff&text=+" alt="" class="img-responsive">
-								<div class="item-img-wrap">
-								<div class="img-overlay"></div>
-									<a href="#"></a>
-								</div>
-								<div class="project-desc"><p>Aenean a elit</p></div>
-							</div>
-						</div>
-						<div class="mix category-3 col-md-3 col-sm-6 col-xs-12" data-myorder="1">
-							<div class="single-project">
-								<img src="http://dummyimage.com/600X400/000/fff&text=+" alt="" class="img-responsive">
-								<div class="item-img-wrap">
-								<div class="img-overlay"></div>
-									<a href="#"></a>
-								</div>
-								<div class="project-desc"><p>Aenean a elit</p></div>
-							</div>
-						</div>
-						<div class="mix category-4 col-md-3 col-sm-6 col-xs-12" data-myorder="1">
-							<div class="single-project">
-								<img src="http://dummyimage.com/600X400/000/fff&text=+" alt="" class="img-responsive">
-								<div class="item-img-wrap">
-								<div class="img-overlay"></div>
-									<a href="#"></a>
-								</div>
-								<div class="project-desc"><p>Aenean a elit</p></div>
-							</div>
-						</div>
-						<div class="mix category-1 col-md-3 col-sm-6 col-xs-12" data-myorder="1">
-							<div class="single-project">
-								<img src="http://dummyimage.com/600X400/000/fff&text=+" alt="" class="img-responsive">
-								<div class="item-img-wrap">
-								<div class="img-overlay"></div>
-									<a href="#"></a>
-								</div>
-								<div class="project-desc"><p>Aenean a elit</p></div>
-							</div>
-						</div>
-						<div class="mix category-4 col-md-3 col-sm-6 col-xs-12" data-myorder="1">
-							<div class="single-project">
-								<img src="http://dummyimage.com/600X400/000/fff&text=+" alt="" class="img-responsive">
-								<div class="item-img-wrap">
-								<div class="img-overlay"></div>
-									<a href="#"></a>
-								</div>
-								<div class="project-desc"><p>Aenean a elit</p></div>
-							</div>
-						</div>
-						<div class="mix category-3 col-md-3 col-sm-6 col-xs-12" data-myorder="1">
-							<div class="single-project">
-								<img src="http://dummyimage.com/600X400/000/fff&text=+" alt="" class="img-responsive">
-								<div class="item-img-wrap">
-								<div class="img-overlay"></div>
-									<a href="#"></a>
-								</div>
-								<div class="project-desc"><p>Aenean a elit</p></div>
-							</div>
-						</div>
-						<div class="mix category-2 col-md-3 col-sm-6 col-xs-12" data-myorder="1">
-							<div class="single-project">
-								<img src="http://dummyimage.com/600X400/000/fff&text=+" alt="" class="img-responsive">
-								<div class="item-img-wrap">
-								<div class="img-overlay"></div>
-									<a href="#"></a>
-								</div>
-								<div class="project-desc"><p>Aenean a elit</p></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-				
-		</div>
-	</section>
-	<footer id="contact" class="footer-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="center-heading">
-						<h2>CONTACT US</h2>
-						<p>Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis.</p>
-						
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<div class="contact-box">
-						<div class="contact-header">
-							<h3>Address</h3>
-						</div>
-						<h4> Acrostia</h4>
-                        <p>Sevenoaks Rd <br>Sevenoaks TN14 7HR, UK</p>
-                        <p></p>
-						<ul class="list-unstyled contact">
-                            <li> <p><strong>Phone:</strong> +88 0191 4428 605</p></li>
-                            <li> <p><strong>Fax</strong> 1800 2345 2132</p></li>
-                            <li><p><strong>Email: </strong>aklima@yahoo.com</p></li>
-                            <li> <p><strong> Skype</strong> aklima.me</p></li>
-                        </ul>
-						<div id="map"></div>
-					</div>
-				</div>
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<div class="contact-box">
-						<div class="contact-header">
-							<h3>Ask a Question</h3>
-						</div>
-						<div class="form-box">
-							<div class="form-horizontal contact-form">
-								<fieldset>
-									<legend>contact</legend>
-									<div class="row form-group">
-										<div class="col-sm-6">
-											<input type="text" class="form-control" id="name" placeholder="Name">
-										</div>
-										<div class="col-sm-6">
-											<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-										</div>
-									</div>
-									<div class="row form-group">
-										<div class="col-sm-12">
-											<textarea class="form-control" rows="6" placeholder="Your question"></textarea>
-										</div>
-									</div>
-									<div class="row form-group">
-										<div class="col-sm-12">
-											<button type="submit" class="btn  btn-lg btn-block submit-form">Send</button>
-										</div>
-									</div>
-								</fieldset>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<footer class="footer_botom">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="social-list text-center">
-						<ul class="list-inline">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	
+          <div class="mix animation col-md-4 col-sm-6 col-xs-12" data-my-order="1">
+            <div class="single-portfolio">
+              <img src="img/portfolio-4.jpg" alt="portfolio sample" class="img-responsive">
+              <div class="img-blur-effect">
+                  <div class="overlay-effect"></div>
+                </div>
+            </div>
+          </div>
+          <div class="mix animation col-md-4 col-sm-6 col-xs-12" data-my-order="1">
+            <div class="single-portfolio">
+              <img src="img/portfolio-5.jpg" alt="portfolio sample" class="img-responsive">
+              <div class="img-blur-effect">
+                  <div class="overlay-effect"></div>
+                </div>
+            </div>
+          </div>
+          <div class="mix animation col-md-4 col-sm-6 col-xs-12" data-my-order="1">
+            <div class="single-portfolio">
+              <img src="img/portfolio-6.jpg" alt="portfolio sample" class="img-responsive">
+              <div class="img-blur-effect">
+                  <div class="overlay-effect"></div>
+                </div>
+            </div>
+          </div>
+          <div class="mix app-design col-md-4 col-sm-6 col-xs-12" data-my-order="1">
+            <div class="single-portfolio">
+              <img src="img/portfolio-7.jpg" alt="portfolio sample" class="img-responsive">
+              <div class="img-blur-effect">
+                  <div class="overlay-effect"></div>
+                </div>
+            </div>
+          </div>
+          <div class="mix app-design col-md-4 col-sm-6 col-xs-12" data-my-order="1">
+            <div class="single-portfolio">
+              <img src="img/portfolio-8.jpg" alt="portfolio sample" class="img-responsive">
+              <div class="img-blur-effect">
+                  <div class="overlay-effect"></div>
+                </div>
+            </div>
+          </div>
+          <div class="mix animation col-md-4 col-sm-6 col-xs-12" data-my-order="1">
+            <div class="single-portfolio">
+              <img src="img/portfolio.jpg" alt="portfolio sample" class="img-responsive">
+              <div class="img-blur-effect">
+                  <div class="overlay-effect"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="policy-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main-header">
+              <h1>OUR WROKING POLICY</h1>
+              <span class="bottom-line"></span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com</p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-green text-center">
+          <div class="col-md-2 col-sm-4 col-xs-6">
+            <div class="policy-content-wrap">
+              <span class="policy-number"><strong>1</strong></span>
+              <div class="policy-icon"><a href=""><i class="fa fa-user"></i></a></div>
+              <span class="policy-name"><h4>MEET</h4></span>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-4 col-xs-6">
+            <div class="policy-content-wrap">
+              <span class="policy-number"><strong>2</strong></span>
+              <div class="policy-icon"><a href=""><i class="fa fa-file-text-o"></i></a></div>
+              <span class="policy-name"><h4>PLAN</h4></span>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-4 col-xs-6">
+            <div class="policy-content-wrap">  
+              <span class="policy-number"><strong>3</strong></span>
+              <div class="policy-icon"><a href=""><i class="fa fa-desktop"></i></a></div>
+              <span class="policy-name"><h4>DESIGN</h4></span>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-4 col-xs-6">
+            <div class="policy-content-wrap">
+              <span class="policy-number"><strong>4</strong></span>
+              <div class="policy-icon"><a href=""><i class="fa fa-paper-plane-o"></i></a></div>
+              <span class="policy-name"><h4>DEVELOP</h4></span>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-4 col-xs-6">
+            <div class="policy-content-wrap">
+              <span class="policy-number"><strong>5</strong></span>
+              <div class="policy-icon"><a href=""><i class="fa fa-user"></i></a></div>
+              <span class="policy-name"><h4>TESTING</h4></span>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-4 col-xs-6">
+            <div class="policy-content-wrap">
+              <span class="policy-number"><strong>6</strong></span>
+              <div class="policy-icon"><a href=""><i class="fa fa-rocket"></i></a></div>
+              <span class="policy-name"><h4>LAUNCH</h4></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="team" id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main-header">
+              <h1>OUR AWESOME TEAM</h1>
+              <span class="bottom-line"></span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com</p>
+            </div>
+          </div>
+        </div>
+        <div class="row team-img">
+          <div class="col-md-3 col-sm-3">
+            <div class="img-wrap">
+              <img src="img/team-1.jpg" alt="">
+              <div class="team-overlay">
+                <div class="social-list">
+                  <ul>
+                    <li><a href="" class="circle-btn"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="" class="circle-btn"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="" class="circle-btn"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="" class="circle-btn"><i class="fa fa-google-plus"></i></a></li>
+                  </ul>
+                </div>
+                
+              </div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name text-green">THOMAS ALBERT</h3>
+              <p class="team-title">Head of Creative Ideas</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3">
+            <div class="img-wrap">
+              <img src="img/team-2.jpg" alt="">
+              <div class="team-overlay">
+                <div class="social-list">
+                  <ul>
+                    <li><a href="" class="circle-btn"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="" class="circle-btn"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="" class="circle-btn"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="" class="circle-btn"><i class="fa fa-google-plus"></i></a></li>
+                  </ul>
+                </div>
+                
+              </div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name text-green">ZAKULIN FARNANDEZ</h3>
+              <p class="team-title">Graphic Designer</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3">
+            <div class="img-wrap">
+              <img src="img/team-3.jpg" alt="">
+              <div class="team-overlay">
+                <div class="social-list">
+                  <ul>
+                    <li><a href="" class="circle-btn"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="" class="circle-btn"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="" class="circle-btn"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="" class="circle-btn"><i class="fa fa-google-plus"></i></a></li>
+                  </ul>
+                </div>
+                
+              </div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name text-green">ALEX MARTIN</h3>
+              <p class="team-title">Web Designer</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3">
+            <div class="img-wrap">
+              <img src="img/team-4.jpg" alt="">
+              <div class="team-overlay">
+                <div class="social-list">
+                  <ul>
+                    <li><a href="" class="circle-btn"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="" class="circle-btn"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="" class="circle-btn"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="" class="circle-btn"><i class="fa fa-google-plus"></i></a></li>
+                  </ul>
+                </div>
+                
+              </div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name text-green">TOBAROK MIYA</h3>
+              <p class="team-title">Web Developer</p>
+            </div>
+          </div>
+        </div>
+        <div class="row our-history">
+          <div class="col-md-6 col-sm-6">
+            <div class="history-title text-green">
+              <h3>OUR SKILL</h3>
+            </div>
+            <div class="history-content text-green">
+              <div class="skill">
+                <h4>Graphic Design</h4>
+                <div class="progress">
+                  <div class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                      <span>90%</span>
+                  </div>
+                </div>
+                <h4>Web Design</h4>
+                <div class="progress">
+                  <div class="progress-bar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                      <span>95%</span>
+                  </div>
+                </div>
+                <h4>Wordpress</h4>
+                <div class="progress">
+                  <div class="progress-bar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                      <span> 85%</span>
+                  </div>
+                </div>
+                <h4>Joomla</h4>
+                <div class="progress">
+                  <div class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                      <span> 90%</span>
+                  </div>
+                </div>
+                <h4>PHP</h4>
+                <div class="progress  ">
+                  <div class="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                      <span> 80%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="history-title text-green">
+              <h3>OUR HISTORY</h3>
+            </div>
+            <div class="row history-tab-container">
+              <div class="col-md-2 text-center">
+                <div class="history-tab-menu">
+                  <ul class="list-group nav nav-tabs">
+                  <li class="active">
+                    <a href="#home" class="list-group-item" id="" data-toggle="tab"><h4>2014</h4></a>
+                  </li>
+                  <li>
+                    <a href="#menu-two" class="list-group-item" id="" data-toggle="tab"><h4>2013</h4></a>
+                  </li>
+                  <li>
+                    <a href="#menu-three" class="list-group-item" id="" data-toggle="tab"><h4>2012</h4></a>
+                  </li>
+                  <li><a href="#menu-four" class="list-group-item" id="" data-toggle="tab"><h4>2011</h4></a></li>
+                </ul>
+                </div>
+                
+              </div>
+              <div class="col-md-10 tab-content">
+                <div class="tab-pane active" id="home">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas nostrum, consectetur rerum eos. Atque obcaecati deserunt cumque quisquam quam ab, illo necessitatibus repellat voluptas nihil recusandae perspiciatis perferendis quas optio.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia qui fugiat, delectus pariatur incidunt. Magni error sint reiciendis accusantium, possimus nisi mollitia ratione consequatur. Reprehenderit incidunt vero animi eius! Voluptatem.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo laborum inventore dignissimos iusto, et laboriosam est dicta quibusdam, necessitatibus neque veritatis ea voluptatem tempora illum corporis recusandae soluta quam eaque.</p>
+                </div>
+                <div class="tab-pane" id="menu-two">
+                  <p>menu two Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae officia, repellat nulla odio dignissimos rerum quis, nobis labore temporibus soluta incidunt nemo repellendus distinctio voluptates ipsam eius dolorum quaerat non?</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum inventore dolore amet eum aspernatur, consequuntur repudiandae, error quos ipsa repellendus assumenda iste sed iusto in rem optio. Voluptatem, iure, excepturi.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ullam alias asperiores ipsam hic dicta praesentium, optio neque veritatis animi doloremque itaque aut quasi ipsum dignissimos eos qui perspiciatis. Iusto.</p>
+                </div>
+                <div class="tab-pane" id="menu-three">
+                  <p>menu Three Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae officia, repellat nulla odio dignissimos rerum quis, nobis labore temporibus soluta incidunt nemo repellendus distinctio voluptates ipsam eius dolorum quaerat non?</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum inventore dolore amet eum aspernatur, consequuntur repudiandae, error quos ipsa repellendus assumenda iste sed iusto in rem optio. Voluptatem, iure, excepturi.</p>
+                </div>
+                <div class="tab-pane" id="menu-four">
+                  <p>menu Four Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae officia, repellat nulla odio dignissimos rerum quis, nobis labore temporibus soluta incidunt nemo repellendus distinctio voluptates ipsam eius dolorum quaerat non?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blog" id="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main-header">
+              <h1>LATEST FROM BLOG</h1>
+              <span class="bottom-line"></span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <div class="media blog-wrap">
+              <div class="media-object media-left">
+              <div class="date"><p>
+                <strong>25</strong>
+              </p>
+              <p>Aug</p>
+            </div>
+            </div>
+            <div class="blog-content media-body">
+              <div class="blog-img">
+                <img src="img/blog-1.jpg" alt="">
+              </div>
+              <div class="blog-title text-green"><h3>Lorem ipsum dolor sit amet</h3></div>
+              <div class="blog-info">
+                <ul class="list-inline">
+                  <li><i class="fa fa-edit"></i>John Lee</li>
+                  <li><i class="fa fa-gift"></i>2 Days Ago</li>
+                  <li><i class="fa fa-comment"></i>32 Comments</li>
+                </ul>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor ex ea commodo.</p>
+              <div class="blog-btn">
+                <a href="" class="read-more">Read More</a>
+              </div>
+            </div>
+            </div>
+            
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="media blog-wrap">
+              <div class="media-object media-left">
+              <div class="date"><p>
+                <strong>18</strong>
+              </p>
+              <p>Aug</p>
+            </div>
+            </div>
+            <div class="blog-content media-body">
+              <div class="blog-img">
+                <img src="img/blog-2.jpg" alt="">
+              </div>
+              <div class="blog-title text-green"><h3>Lorem ipsum dolor sit amet</h3></div>
+              <div class="blog-info">
+                <ul class="list-inline">
+                  <li><i class="fa fa-edit"></i>John Lee</li>
+                  <li><i class="fa fa-gift"></i>2 Days Ago</li>
+                  <li><i class="fa fa-comment"></i>32 Comments</li>
+                </ul>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor ex ea commodo.</p>
+              <div class="blog-btn">
+                <a href="" class="read-more">Read More</a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="fun-factor">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main-header">
+              <h1>FUN FACTOR</h1>
+              <span class="bottom-line"></span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com</p>
+            </div>
+          </div>
+        </div>
+        <div class="row fun-factor-container">
+          <div class="col-md-3 col-sm-3 fun-effect">
+            <div class="fun-icon-wrapper">
+              <div class="fun-icon">
+                <a href="" class="fan-rec"><i class="fa fa-coffee"></i></a> 
+              </div>
+              
+            </div>
+            <p class="number"><span class="counter">2562</span></p>
+              <p class="desc">CUP OF COFFEE CONSUMEND</p>
+          </div>
+          <div class="col-md-3 col-sm-3 fun-effect">
+            <div class="fun-icon-wrapper">
+              <div class="fun-icon">
+                <a href="" class="fan-rec"><i class="fa fa-user"></i></a> 
+              </div>
+              
+            </div>
+            <p class="number"><span class="counter">7500</span></p>
+              <p class="desc">CLIENT WORKED WITH</p>
+          </div>
+          <div class="col-md-3 col-sm-3 fun-effect">
+            <div class="fun-icon-wrapper">
+              <div class="fun-icon">
+                <a href="" class="fan-rec"><i class="fa fa-clock-o"></i></a> 
+              </div>
+              
+            </div>
+            <p class="number"><span class="counter">2050</span></p>
+              <p class="desc">PROJECT COMPLETE</p>
+          </div>
+          <div class="col-md-3 col-sm-3 fun-effect">
+            <div class="fun-icon-wrapper">
+              <div class="fun-icon">
+                <a href="" class="fan-rec"><i class="fa fa-question"></i></a> 
+              </div>
+              
+            </div>
+            <p class="number"><span class="counter">1550</span></p>
+              <p class="desc">ANSWERED QUESTIONS</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pricing-table">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main-header">
+              <h1>PRICING TABLE</h1>
+              <span class="bottom-line"></span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="panel price">
+              <div class="panel-heading  text-center">
+                <div class="price-circle">
+                  <h3>$120</h3>
+                  <small>per month</small>
+                </div>
+                <h2 class="lead"><strong>NEWBIE</strong></h2>
+              </div>
+              <div class="panel-body text-center">
+                
+              
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">1 Hosting</li>
+                <li class="list-group-item">2 Email Marketing</li>
+                <li class="list-group-item">5 Databases</li>
+                <li class="list-group-item">2 Design Pack</li>
+                <li class="list-group-item">3 Website Layouts</li>
+                <li class="list-group-item">5 Header Style</li>
+              </ul></div>
+              <div class="panel-footer">
+                <a class="btn btn-lg btn-block" href="#">BUY NOW!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="panel price">
+              <div class="panel-heading  text-center">
+                <div class="price-circle">
+                  <h3>$140</h3>
+                  <small>per month</small>
+                </div>
+                <h2 class="lead"><strong>PRO  </strong></h2>
+              </div>
+              <div class="panel-body text-center">
+                
+              
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">1 Hosting</li>
+                <li class="list-group-item">2 Email Marketing</li>
+                <li class="list-group-item">5 Databases</li>
+                <li class="list-group-item">2 Design Pack</li>
+                <li class="list-group-item">3 Website Layouts</li>
+                <li class="list-group-item">5 Header Style</li>
+              </ul></div>
+              <div class="panel-footer">
+                <a class="btn btn-lg btn-block" href="#">BUY NOW!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="panel price">
+              <div class="panel-heading  text-center">
+                <div class="price-circle">
+                  <h3>$160</h3>
+                  <small>per month</small>
+                </div>
+                <h2 class="lead"><strong>BUSINESS</strong></h2>
+              </div>
+              <div class="panel-body text-center">
+                
+              
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">1 Hosting</li>
+                <li class="list-group-item">2 Email Marketing</li>
+                <li class="list-group-item">5 Databases</li>
+                <li class="list-group-item">2 Design Pack</li>
+                <li class="list-group-item">3 Website Layouts</li>
+                <li class="list-group-item">5 Header Style</li>
+              </ul></div>
+              <div class="panel-footer">
+                <a class="btn btn-lg btn-block" href="#">BUY NOW!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="panel price">
+              <div class="panel-heading  text-center">
+                <div class="price-circle">
+                  <h3>$180</h3>
+                  <small>per month</small>
+                </div>
+                <h2 class="lead"><strong>ULTRA</strong></h2>
+              </div>
+              <div class="panel-body text-center">
+                
+              
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">1 Hosting</li>
+                <li class="list-group-item">2 Email Marketing</li>
+                <li class="list-group-item">5 Databases</li>
+                <li class="list-group-item">2 Design Pack</li>
+                <li class="list-group-item">3 Website Layouts</li>
+                <li class="list-group-item">5 Header Style</li>
+              </ul></div>
+              <div class="panel-footer">
+                <a class="btn btn-lg btn-block" href="#">BUY NOW!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonial-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main-header">
+              <h1>TESTIMONIALS</h1>
+              <span class="bottom-line"></span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="testimony-list">
+              <!-- <div class="prev-next"></div> -->
+              <div class="single-testimony">
+                <img src="img/comment1.jpg" alt="" class="img-circle">
+                <div class="comment-content">
+                  
+                  <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis illum fugiat magni possimus" </p>
+                  <h4 class="user">Norel</h4>
+                </div>
+              </div>
+              <div class="single-testimony">
+                <img src="img/comment2.jpg" alt="" class="img-circle">
+                <div class="comment-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis illum fugiat magni possimus </p>
+
+                  <h4 class="user">NoBIra Ilma</h4>
+                </div>
+              </div>
+              <div class="single-testimony">
+                <img src="img/comment3.jpg" alt="" class="img-circle">
+                <div class="comment-content">
+                  
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis illum fugiat magni possimus </p>
+                  <h4 class="user">Asmifkema fe</h4>
+                </div>
+              </div>
+              <div class="single-testimony">
+                <img src="img/comment4.jpg" alt="" class="img-circle">
+                <div class="comment-content">
+                  
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis illum fugiat magni possimus </p>
+                  <h4 class="user">Diarogma ma</h4>
+                </div>
+              </div>
+              <div class="single-testimony">
+                <img src="img/comment5.jpg" alt="" class="img-circle">
+                <div class="comment-content">
+                  
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis illum fugiat magni possimus </p>
+                  <h4 class="user">Isramie</h4>
+                </div>
+              </div>
+              <div class="single-testimony">
+                <img src="img/comment2.jpg" alt="" class="img-circle">
+                <div class="comment-content">
+                  
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis illum fugiat magni possimus </p>
+                  <h4 class="user">Norel</h4>
+                </div>
+              </div>
+              <div class="single-testimony">
+                <img src="img/comment3.jpg" alt="" class="img-circle">
+                <div class="comment-content">
+                  
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis illum fugiat magni possimus </p>
+                  <h4 class="user">Asmifkema fe</h4>
+                </div>
+              </div>
+              <div class="single-testimony">
+                <img src="img/comment4.jpg" alt="" class="img-circle">
+                <div class="comment-content">
+                  
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis illum fugiat magni possimus </p>
+                  <h4 class="user">Diarogma ma</h4>
+                </div>
+              </div>
+              <div class="single-testimony">
+                <img src="img/comment5.jpg" alt="" class="img-circle">
+                <div class="comment-content">
+                  
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis illum fugiat magni possimus </p>
+                  <h4 class="user">Isramie</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="client">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main-header">
+              <h1>OUR CLIENTS</h1>
+              <span class="bottom-line"></span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 client-list">
+            <div class="single-client"><img src="img/client_1.png" alt=""></div>
+            <div class="single-client"><img src="img/client_2.png" alt=""></div>
+            <div class="single-client"><img src="img/client_3.png" alt=""></div>
+            <div class="single-client"><img src="img/client_4.png" alt=""></div>
+            <div class="single-client"><img src="img/client_5.png" alt=""></div>
+            <div class="single-client"><img src="img/client_3.png" alt=""></div>
+            <div class="single-client"><img src="img/client_4.png" alt=""></div>
+            <div class="single-client"><img src="img/client_5.png" alt=""></div>
+            <div class="single-client"><img src="img/client_1.png" alt=""></div>
+            <div class="single-client"><img src="img/client_2.png" alt=""></div>
+            <div class="single-client"><img src="img/client_3.png" alt=""></div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <a href="#" title="Scroll to top" class="scroll-top"><i class="glyphicon glyphicon-chevron-up"></i></a>
+    <footer id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="footer-content">
+              <div class="footer-header">
+                <h4>ABOUT COMPANY</h4>
+              </div>
+              <p>perspiciatis unde omnis iste natus error sit voluptatem accm doloremque antium, totam rem aperiam, eaque ipsa erspiciatis unde omnis iste accm doloremque antium, totam rem periam, eaque ipsa accm remqueperiam,</p>
+              <a href="" class="read_more">Read more ..</a>
+              <div class="social-icon">
+                <ul class="list-inline">
+                  <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                  <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                  <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="footer-content">
+              <div class="footer-header">
+                <h4>RECENT POST</h4>
+              </div>
+              <ul class="post-list">
+                <li>perspiciatis unde omnis iste natus error sit voluptatem accm doloremque antium, totam </li>
+                <li>perspiciatis unde omnis iste natus error sit voluptatem accm doloremque antium, totam </li>
+                <li>perspiciatis unde omnis iste natus error sit voluptatem accm doloremque antium, totam </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="footer-content">
+              <div class="footer-header">
+                <h4>CONTACT</h4>
+              </div>
+              <ul class="list-contact">
+                <li><i class="fa fa-map"></i>Main town,  Anystreen <br>C/A 1254 New Yourk</li>
+                <li><i class="fa fa-phone"></i>+012  456  456  456 <br>+012  356  897  222</li>
+                <li><i class="fa fa-globe"></i>info@olongker.com <br>www.olongker.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="footer-content">
+              <div class="footer-header">
+                <h4>NEWSLETTER</h4>
+              </div>
+              <form action="" class="form-horizontal">
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <input type="text" class="form-control" placeholder="Email Here">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-6">
+                    <button class="btn">SEND</button>
+                  </div>
+                </div>
+              </form>
+              <h4 class="tag">TAGS</h4>
+              <div class="tag_list">
+                <a href="">CORPORATE</a>
+                <a href="">MULTIPURPOSE</a>
+                <a href="">ENVATO</a>
+                <a href="">BUSINESS</a>
+                <a href="">WORDPRESS</a>
+                <a href="">TWITTER</a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    
-    <script src="js/jquery.mixitup.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
